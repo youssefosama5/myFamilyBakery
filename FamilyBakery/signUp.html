@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/signUp.css">
+</head>
+<body>
+    <section class="sign">
+        <div class="account-card">
+            <img src="./images/bakery-color.png" alt="logo">
+            <h2 class="bakery-name">Sign Up</h2>
+            <form>
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <div class="form-group role-group">
+                    <label class="select">Select Role</label>
+                    <div class="radio-row">
+                        <label>
+                            <input type="radio" name="role" value="user" checked>
+                            User
+                        </label>
+                        <label>
+                            <input type="radio" name="role" value="admin">
+                            Admin
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Create Account</button>
+            </form>
+            <p>Already have an account? <a href="login.html" target="_blank">Login</a></p>
+        </div>
+        </section>
+</body>
+</html>
